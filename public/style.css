@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    color: palevioletred;
+    background-color: black;
+    background-image: url(images/1.png);
+    height: 100vh;
+    background-origin: content-box;
+    background-attachment: fixed;
+    background-position: right ;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+#welcome::first-letter{
+    font-size: 75px;
+    color: palevioletred;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+
+}
+.navbar{
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.292);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+padding: 0px;
+}
+
+ .nav_logo_img{
+    font-size: 50px;
+    margin-left: 50px;
+    
+} 
+.nav-items{
+    margin-right: 100px;
+    color: white;
+  
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+list-style-type: none;
+}
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.welcome_home{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.ice_bars{
+background-color: rgba(128, 128, 128, 0.292);
+color: white !important;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.icebars{
+    /* background-image: url(images/3.jpg); */
+    padding-top: 50px;
+    padding-bottom: 150px;
+    
+    /* text-align: center; */
+    
+}
+.icebars h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.icebars p{
+    width: 55%;
+/* margin-left: 200px; */
+margin-top: 50px;
+font-size: 30px;
+}
+.iframe{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
